@@ -38,13 +38,13 @@ const columns: ColumnsType<TypeProducts> = [
     },
     {
         title: 'Giá sản phẩm',
-        dataIndex: 'price',
-        key: 'Price',
+        dataIndex: 'saleOffPrice',
+        key: 'saleOffPrice',
     },
     {
         title: 'Mô tả',
-        dataIndex: 'desc',
-        key: 'desc',
+        dataIndex: 'description',
+        key: 'description',
     },
     {
         title: 'Ẩn/Hiện',

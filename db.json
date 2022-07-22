@@ -3,7 +3,7 @@
   "products": [
     {
       "name": "Apple iPhone 13 Pro Max",
-      "price": 33990000,
+      "price": "200002",
       "saleOffPrice": 27390000,
       "desc": "Màn hình Super Retina XDR 6.7 inch với ProMotion cho cảm giác nhanh nhạy hơn3\nChế độ Điện Ảnh làm tăng thêm độ sâu trường ảnh nông và tự động thay đổi tiêu cự trong video\nHệ thống camera chuyên nghiệp Telephoto, Wide và Ultra Wide 12MP; LiDAR Scanner; phạm vi thu phóng quang học 6x; chụp ảnh macro; Phong Cách Nhiếp Ảnh, video ProRes, HDR thông minh thế hệ 4, chế độ Ban Đêm, Apple ProRAW, khả năng quay video HDR Dolby Vision 4K",
       "description": "Cần có gói cước dữ liệu. Mạng 5G chỉ khả dụng ở một số thị trường và được cung cấp qua một số nhà mạng. Tốc độ có thể thay đổi tùy địa điểm và nhà mạng. Để biết thông tin về hỗ trợ mạng 5G, vui lòng liên hệ nhà mạng và truy cập apple.com/iphone/cellular.\n\n2Thời lượng pin khác nhau tùy theo cách sử dụng và cấu hình. Truy cập apple.com/batteries để biết thêm thông tin.\n\n",
@@ -42,7 +42,9 @@
       "categories": "phone",
       "feature": "Thông số kỹ thuật:\n\nMàn hình: AMOLED, 6.4\", Full HD+\n\nHệ điều hành: Android 11",
       "description": "Bộ xử lý: Qualcomm Snapdragon 680, tối đa 2.4GHz\n\nGPU: Adreno 610\n\nRAM: 8GB\n\nBộ nhớ/ROM: 128GB\n\nHỗ trợ thẻ nhớ tối đa 1TB\n\nPin:4500mAh (Typ)\n\nSạc: Siêu Sạc nhanh Super VOOC 33W",
-      "id": 6
+      "id": 6,
+      "price": "20000",
+      "desc": "adssasda"
     },
     {
       "name": "Điện thoại Samsung Galaxy A32 4G 6GB/128GB Đen - Hàng chính hãng",
@@ -52,6 +54,24 @@
       "feature": "Điện thoại Samsung Galaxy A32 4G 6GB/128GB Đen sở hữu thiết kế bo góc thanh lịch với độ mỏng chỉ 8.4mm mang đến cảm giác thoải mái khi cầm nắm. Cụm Camera mang thiết kế đặc trưng của dòng Samsung Galaxy A, mặt lưng bóng bẩy giúp điện thoại nổi bật dưới mọi góc nhìn. Sở hữu màn hình Full HD 6.4'', Bộ vi xử lý MediaTek Helio G80 8 nhân mạnh mẽ, cùng bộ 4 camera sắc nét, Galaxy A32 là một đối thủ đáng gờm trong phân khúc  tầm trung.",
       "description": "Điện thoại Samsung Galaxy A32 4G 6GB/128GB Đen trang bị màn hình giọt nước Infinity-U với viền mỏng mang đến không gian hiển thị rộng rãi, sắc nét và chi tiết. Kích thước màn hình lớn , độ phân giải Full HD (1080 x 2400 pixels) cho chất lượng hình ảnh hiển thị rõ nét. Công nghệ Eye Comfort Shield giảm thiểu ánh sáng xanh gây hại cho mắt, trong khi đó công nghệ Real Smooth mang đến trải nghiệm mượt mà tối ưu, bất kể bạn chơi game hay lướt web.",
       "id": 7
+    },
+    {
+      "name": "Sản phẩm 1",
+      "originalPrice": 200,
+      "saleOffPrice": 220,
+      "categories": "phone",
+      "feature": "sđá",
+      "description": "absnfj bhsdab",
+      "id": 8,
+      "price": "20000",
+      "desc": "adssasda"
+    },
+    {
+      "name": "Sản phẩm 2",
+      "price": 2132,
+      "categories": "phone",
+      "desc": "213231",
+      "id": 9
     }
   ]
 }

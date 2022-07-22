@@ -16,6 +16,7 @@ type FormInput = {
     id: any,
     name: string,
     price: number,
+    price_sale:number,
     img: string,
     desc: string,
 
@@ -159,14 +160,7 @@ const UpdateProducts = (props: updateProductsProps) => {
                     </div>
                     {errors.price && <p className="text-danger text-center"> Định dạng trường không hợp lệ</p>}
 
-                    <div className="form-label-group d-flex my-3 ">
-                        <label htmlFor="inputEmail " className='w-25'>Danh mục :</label>
-                        <select placeholder="Điện thoại" className='w-75 form-control' >
-                            <option value="Iphone">Iphone</option>
-                            <option value="Samsung">Samsung</option>
-                            <option value="other">other</option>
-                        </select>
-                    </div>
+                   
                     <div className="form-label-group d-flex my-3">
                         <label htmlFor="inputEmail " className='w-25'>Mô tả :</label>
                         <input type="text" className="form-control bg-light w-75 "  {...register('desc', { required: true, minLength: 3 })} />

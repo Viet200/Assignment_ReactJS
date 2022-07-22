@@ -60,7 +60,7 @@ const AddProductPage: React.FC = () => {
 						<Row gutter={16}>
 							<Col span={12}>
 								<Form.Item
-									name="originalPrice"
+									name="price"
 									label="Giá gốc"
 									labelCol={{ span: 24 }}
 									rules={[{ required: true, message: 'Gía sản phẩm' }]}
@@ -70,7 +70,7 @@ const AddProductPage: React.FC = () => {
 							</Col>
 							<Col span={12}>
 								<Form.Item
-									name="saleOffPrice"
+									name="price_sale"
 									label="Giá giảm"
 									labelCol={{ span: 24 }}
 									rules={[{ required: true, message: 'Gía sản phẩm' }]}
@@ -78,39 +78,17 @@ const AddProductPage: React.FC = () => {
 									<InputNumber style={{ width: '100%' }} size="large" />
 								</Form.Item>
 							</Col>
-							<Col span={12}>
-								<Form.Item
-									label="Phân loại"
-									name="categories"
-									rules={[{ required: true }]}
-								>
-									<Select style={{ width: '100%' }} size="large">
-										<Option value="phone">Điện thoại</Option>
-										<Option value="laptop">Laptop</Option>
-										<Option value="accessories" disabled>
-											Phụ kiện
-										</Option>
-										<Option value="tablet">Máy tính bảng</Option>
-									</Select>
-								</Form.Item>
-							</Col>
+							
 						</Row>
 
+						
 						<Form.Item
-							name="feature"
-							labelCol={{ span: 24 }}
-							label="Đặc điểm nổi bật"
-							rules={[{ required: true, message: 'Đặc điểm sản phẩm' }]}
-						>
-							<TextArea name="feature" />
-						</Form.Item>
-						<Form.Item
-							name="description"
+							name="desc"
 							labelCol={{ span: 24 }}
 							label="Mô tả sản phẩm"
 							rules={[{ required: true, message: 'Mô tả sản phẩm' }]}
 						>
-							<TextArea name="description" />
+							<TextArea name="desc" />
 						</Form.Item>
 
 						<Form.Item>
